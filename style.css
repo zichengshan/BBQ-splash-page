@@ -6,7 +6,10 @@ body {
     text-align: center;
 }
 
+/*Typography*/
+
 h1 {
+    color: #fff;
     font-size: 2.25rem;
     font-weight: 300;
 }
@@ -43,4 +46,16 @@ h2 + p {
     letter-spacing: 1px;
 }
 
+/*Intro section*/
+.intro {
+    background-color: #404040;
+    background-image: url("images/dark-ribs.jpg");
+    background-size: cover;
+    padding: 0 .25em 1em;
+    display: flex;
+    flex-direction: column;
+}
 
+.top-text {
+    order: -1;
+}
