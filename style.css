@@ -79,10 +79,35 @@ h2 + p {
 }
 
 
+/*form*/
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    font-family: inherit;
+    text-align: inherit;
+    width: 100%;
+    padding: .5em;
+    margin-bottom: 1em;
+    border-radius: 50px;
+}
+
+input {
+    border: 1px solid #404040;
+}
+
+.btn {
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
 
 
 /*media queries*/
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     body {
         font-size: 1.125rem;
         display: flex;
