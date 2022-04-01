@@ -97,6 +97,12 @@ input,
 
 input {
     border: 1px solid #404040;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+input:focus {
+    transform: scale(1.075);
 }
 
 .btn {
@@ -111,10 +117,12 @@ input {
 
 .btn-primary {
     background-image: linear-gradient(45deg, orange, orangered);
-    transition: .5s;
+    transform: scale(1);
+    transition: .3s;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
     color: white;
     transform: scale(1.1);
 }
