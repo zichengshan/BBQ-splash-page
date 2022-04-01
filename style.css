@@ -40,12 +40,16 @@ h2 + p {
 }
 
 .top-text {
+    margin-top: 0;
+    padding-top: 2px;
     font-size: 0.625rem;
     font-weight: 900;
-    color:#F18119;
+    color: #F18119;
     text-transform: uppercase;
     letter-spacing: 1px;
     order: -1;
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to right, #ff713b, #ffa51d) 1;
 }
 
 .fine-print {
@@ -152,7 +156,7 @@ input:focus {
     }
 
     h2,
-    h1 + p{
+    h1 + p {
         font-size: 1.75rem;
     }
 }
