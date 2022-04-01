@@ -111,11 +111,12 @@ input {
 
 .btn-primary {
     background-image: linear-gradient(45deg, orange, orangered);
-    transition: color .5s;
+    transition: .5s;
 }
 
 .btn-primary:hover {
     color: white;
+    transform: scale(1.1);
 }
 
 
